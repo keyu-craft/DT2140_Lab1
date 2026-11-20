@@ -1,9 +1,15 @@
 # DT2140 Lab 1 — Image-based AR with Vuforia
 
-Unity project for DT2140 Lab 1, Group 007. The application recognizes two
+Unity project for DT2140 Lab 1. The application recognizes two
 custom image targets in the same webcam session and anchors different 3D
 content to each target.
 
+## Group
+
+- Members:
+  - Keyu Liu
+  - Yihuan Ma
+    
 ## Features
 
 - Two custom Image Targets tracked simultaneously
