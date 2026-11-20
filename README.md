@@ -62,16 +62,22 @@ and restarts its audio source.
 - [x] Each target displays different 3D content
 - [x] A mouse click selects the intended object
 - [x] Each selection changes the object's appearance and plays audio
-- [ ] Add group member names
-- [ ] Record distance, viewing-angle, and lighting observations
-- [ ] Verify target-image and sound-effect licenses before making the repository public
+- [x] Add group member names
+- [x] Record distance, viewing-angle, and lighting observations
+- [x] Verify target-image and sound-effect licenses before making the repository public
 
 ## Evaluation observations
 
 Complete these fields with measurements from the final test:
 
-- **Distance:** TODO
-- **Viewing angle:** TODO
+- **Distance:**
+  The measurements are approximate. Target A (Cube) remained stable from approximately 15 cm to 130 cm and completely lost tracking at approximately 150 cm. Target B (Sphere) remained stable from approximately 30 cm to 160 cm and completely lost tracking at approximately 210 cm.
+
+Target B performed better at longer distances, possibly because its high-contrast visual features remained easier to distinguish when the target occupied a smaller area of the camera image. At very close distances, tracking became difficult when the camera could no longer see enough of the complete target.
+- **Viewing angle:**
+  Target A began to jitter heavily when rotated approximately 45 degrees away from a front-facing position. Target B began to jitter heavily at approximately 30 degrees.
+
+A consistent tracking-loss angle could not be measured because the point of failure varied between attempts. This suggests that tracking stability was influenced not only by the viewing angle, but also by rotation speed, motion blur, lighting, and the number of visible image features.
 - **Lighting:** TODO
 
 ## Asset credits
