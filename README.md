@@ -33,6 +33,7 @@ content to each target.
 - `Assets/Scripts/ARInteractable.cs` — changes color and plays audio
 - `Assets/StreamingAssets/Vuforia` — imported target databases
 - `Assets/Editor/Vuforia/ImageTargetTextures/Image` — custom target previews
+- `Images` — original custom target source images
 
 ## Setup
 
