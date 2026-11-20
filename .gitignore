@@ -1,0 +1,51 @@
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/QCAR/
+
+# Generated IDE files
+/.vs/
+/.vscode/
+/.idea/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.DotSettings.user
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.apk
+*.aab
+*.obb
+*.app
+*.unitypackage
+*.unitypackage.meta
+
+# Install the course-supplied Vuforia SDK separately.
+/Packages/com.ptc.vuforia.engine-*.tgz
+
+# Crash and temporary files
+sysinfo.txt
+mono_crash.*
+tmpinst-dir.stamp
+ExportedObj/
+/[Aa]ssets/_Recovery/
